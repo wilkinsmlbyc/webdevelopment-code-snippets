@@ -1,0 +1,25 @@
+array backup
+
+
+
+
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+            guestList.te
+
+var guestName = prompt("Please search name here.")
+var upperCaseFirstChar = guestName.slice(0,1);
+    upperCaseFirstChar = upperCaseFirstChar.toUpperCase();
+var restOfName = guestName.slice(1,guestName.length); 
+guestName = upperCaseFirstChar + restOfName.toLowerCase(); 
+
+if (guestName == ""){
+    alert("Please input name.");    
+}
+else if (guestList.includes(guestName)){
+    
+    alert("Welcome! "+guestName);
+}
+else{
+    alert("You are not a member of the group.");
+}
+
