@@ -1,0 +1,24 @@
+random name for whosPaying
+
+
+
+****
+
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+    names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+    var randomInt = Math.floor(Math.random() * names.length);
+    
+    var selectedPerson = names[randomInt];
+    
+    return selectedPerson +" is going to buy lunch today!";
+    
+    
+    
+
+
+/******Don't change the code below*******/    
+}

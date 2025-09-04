@@ -1,0 +1,53 @@
+push-pop array
+
+
+
+var output = [];
+var counter = 1;
+var numzero = 0;    
+
+function fizzBuzz() {
+    
+    
+    output.push(counter);
+    
+    
+     if ((counter % 3 === 0) && (counter % 5 === 0)) {
+
+        counter++; 
+        output.pop();
+        output.push("FizzBuzz");
+        
+        console.log(output);
+        
+        }
+
+    else if (counter % 3 === 0) {
+
+        counter++; 
+        output.pop();
+        output.push("Fizz");
+        
+        console.log(output);
+        
+        }
+
+    else if (counter % 5 === 0) {
+    
+        counter++;
+        output.pop();
+        output.push("Buzz");
+        
+        console.log(output);
+        
+        }
+
+    else {
+        counter++; 
+        console.log(output);
+        
+        }
+    
+     
+}
+

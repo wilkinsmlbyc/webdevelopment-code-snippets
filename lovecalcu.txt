@@ -1,0 +1,8 @@
+var woman = prompt("Please type the name of the woman you want to match: " );
+var man= prompt("Please type the name of the man you want to match: " )
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+console.log(woman);
+console.log(man);
+console.log("The chance of being in love and compatible of " + woman + " and " + man + " is " + loveScore + "%.");
+alert("The chance of being in love and compatible of " + woman + " and " + man + " is " + loveScore + "%.");
